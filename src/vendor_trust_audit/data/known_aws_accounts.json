@@ -1,0 +1,2698 @@
+{
+ "upstream": "https://github.com/fwdcloudsec/known_aws_accounts",
+ "commit": "226d4f276a8269436ae2b53b5276c99063ea9ff3",
+ "license": "Apache-2.0",
+ "generated": "2026-11-25",
+ "accounts": {
+  "002294850712": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "002991280229": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "003033775354": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "005102551263": {
+   "name": "Tableau",
+   "type": "",
+   "source": "https://help.salesforce.com/s/articleView?id=005232922&type=1"
+  },
+  "006742885340": {
+   "name": "Palo Alto Networks Cortex",
+   "type": "",
+   "source": "https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Pro-Administrator-Guide/Create-an-Assumed-Role"
+  },
+  "008923505280": {
+   "name": "Grafana",
+   "type": "",
+   "source": "https://grafana.com/docs/grafana-cloud/integrations/integrations/integration-cloudwatch/"
+  },
+  "009160069308": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "009996457667": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "010251424122": {
+   "name": "Domo",
+   "type": "",
+   "source": "https://knowledge.domo.com/Connect/Connecting_to_Data_with_Connectors/Configuring_Each_Connector/Connectors_for_File_Retrieval/Amazon_S3_AssumeRole_Connector"
+  },
+  "012205512454": {
+   "name": "Expel",
+   "type": "",
+   "source": "https://registry.terraform.io/modules/expel-io/cloudtrail/aws/latest"
+  },
+  "012615275169": {
+   "name": "Tenable",
+   "type": "",
+   "source": "https://docs.tenable.com/tenableio/vulnerabilitymanagement/Content/Settings/Connectors_ConfigureAWS_KeylessAutoDiscovery.htm"
+  },
+  "013241004608": {
+   "name": "EKS ECR Repositories",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/eks/latest/userguide/add-ons-images.html"
+  },
+  "013944500484": {
+   "name": "DisruptOps, Inc.",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "015990171708": {
+   "name": "Claroty",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "017663287629": {
+   "name": "New Relic",
+   "type": "",
+   "source": "https://docs.newrelic.com/docs/integrations/amazon-integrations/get-started/connect-aws-services-infrastructure"
+  },
+  "017920819041": {
+   "name": "DoIt",
+   "type": "",
+   "source": "https://help.doit.com/docs/optimize/flexsave/aws"
+  },
+  "020402002396": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "024196225137": {
+   "name": "DuckbillGroup",
+   "type": "",
+   "source": "https://www.lastweekinaws.com/blog/are-aws-account-ids-sensitive-information/"
+  },
+  "027434742980": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "028811157404": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "030157059230": {
+   "name": "Hyperproof",
+   "type": "",
+   "source": "https://docs.hyperproof.io/user/en/hypersyncs/connecting-aws/cross-account-role"
+  },
+  "030935290150": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "032379705303": {
+   "name": "BuildKite (log output)",
+   "type": "",
+   "source": "https://buildkite.com/docs/pipelines/managing-log-output"
+  },
+  "033677994240": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "034638983726": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "035351147821": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "036437403198": {
+   "name": "Densify",
+   "type": "",
+   "source": "https://www.densify.com/docs/Content/Data_Collection_for_Public_Cloud_Systems/AWS_Data_Collection_Prerequisites_for_an_IAM_Role.htm"
+  },
+  "037604701340": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "039163547507": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "041313461515": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "044642040396": {
+   "name": "Plerion",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "046692759124": {
+   "name": "Matilda",
+   "type": "",
+   "source": "https://docs.matildacloud.com/docs/es-mx/step-by-step-guide"
+  },
+  "048591011584": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "051362938876": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "053454850223": {
+   "name": "Redshift logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html"
+  },
+  "054676820928": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "056196542512": {
+   "name": "SSLMate (Sandbox Site)",
+   "type": "",
+   "source": "https://sslmate.com/help/reference/misc#aws_integration"
+  },
+  "057012691312": {
+   "name": "cloudsploit",
+   "type": "",
+   "source": "https://cloudsploit.freshdesk.com/support/solutions/articles/17000008755-connecting-an-aws-account-to-cloudsploit"
+  },
+  "057172825058": {
+   "name": "Fugue",
+   "type": "",
+   "source": "https://docs.fugue.co/setup.html"
+  },
+  "061081614506": {
+   "name": "CloudFix",
+   "type": "",
+   "source": "https://support.cloudfix.com/article/129157-fix-cloudfix-auto-approval-access-change-manager"
+  },
+  "061190967865": {
+   "name": "CloudZero",
+   "type": "",
+   "source": "https://www.cloudzero.com/hubfs/CloudZero%20Configuration%20Guide%20-%20Automated.pdf"
+  },
+  "061510835048": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "062663104137": {
+   "name": "Cloudera",
+   "type": "",
+   "source": "https://blog.cloudera.com/cloudera-altus-cloud-services-youre-in-control-part-2/"
+  },
+  "062897671886": {
+   "name": "Sophos",
+   "type": "",
+   "source": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html"
+  },
+  "066549572091": {
+   "name": "Epsagon",
+   "type": "",
+   "source": "https://docs.epsagon.com/docs/faq"
+  },
+  "066635153087": {
+   "name": "EKS ECR Repositories",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/eks/latest/userguide/add-ons-images.html"
+  },
+  "068664126052": {
+   "name": "DoIt",
+   "type": "",
+   "source": "https://help.doit.com/docs/flexsave/aws/standalone/required-policies"
+  },
+  "069019280451": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "071303700930": {
+   "name": "Funnel",
+   "type": "",
+   "source": "https://help.funnel.io/en/articles/1494351-amazon-s3-bucket-configuration"
+  },
+  "075028567923": {
+   "name": "Redshift logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html"
+  },
+  "075540750887": {
+   "name": "Tableau",
+   "type": "",
+   "source": "https://help.salesforce.com/s/articleView?id=005232922&type=1"
+  },
+  "076674570225": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "078992246105": {
+   "name": "Telestream Cloud",
+   "type": "",
+   "source": "https://docs.telestream.dev/docs/aws-private-cloud"
+  },
+  "080595016317": {
+   "name": "Qualys Cloud View",
+   "type": "",
+   "source": "https://qualysguard.qualys.com/qwebhelp/fo_portal/scans/ec2_connector.htm"
+  },
+  "081802104111": {
+   "name": "Ermetic",
+   "type": "",
+   "source": "https://github.com/ermetic/utilities/blob/main/AWS/ControlTower/cloudformation/ermetic-controltower.yaml"
+  },
+  "085540434294": {
+   "name": "Drata",
+   "type": "",
+   "source": "https://github.com/drata/terraform-aws-drata-autopilot-role/blob/f774d423a62df3a3dd03008a68c3b3d70b95be33/variables.tf#L1-L5"
+  },
+  "086441151436": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "089661699081": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "091741439927": {
+   "name": "NETSCOUT",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "094919933512": {
+   "name": "Nirmata",
+   "type": "",
+   "source": "https://nirmata-documentation.readthedocs.io/en/latest/CloudProviders.html"
+  },
+  "098369216593": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "099720109477": {
+   "name": "Canonical",
+   "type": "",
+   "source": "https://ubuntu.com/server/docs/cloud-images/amazon-ec2"
+  },
+  "103749124141": {
+   "name": "BigPanda",
+   "type": "",
+   "source": "https://docs.bigpanda.io/docs/etl-sync"
+  },
+  "107430051933": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "107630771604": {
+   "name": "SegmentIO",
+   "type": "",
+   "source": "https://segment.com/docs/destinations/amazon-s3/"
+  },
+  "109351309407": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "112070389366": {
+   "name": "Holori",
+   "type": "",
+   "source": "https://doc.holori.com/Import%20from%20provider/connectaws/"
+  },
+  "112108976196": {
+   "name": "Tableau",
+   "type": "",
+   "source": "https://help.salesforce.com/s/articleView?id=005232922&type=1"
+  },
+  "112543817624": {
+   "name": "Splunk",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "113285607260": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "114774131450": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "118283430703": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "118652503430": {
+   "name": "Presidio",
+   "type": "",
+   "source": "customer IAM policy"
+  },
+  "119688915426": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "119877853097": {
+   "name": "Tableau",
+   "type": "",
+   "source": "https://help.salesforce.com/s/articleView?id=005232922&type=1"
+  },
+  "122442690527": {
+   "name": "Palo Alto Networks",
+   "type": "",
+   "source": "https://github.com/terraform-providers/terraform-provider-aws/issues/6674"
+  },
+  "122931797421": {
+   "name": "teraproc",
+   "type": "",
+   "source": "http://www.teraproc.com/awskey/"
+  },
+  "124790101291": {
+   "name": "TrendMicro",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "124839743349": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "127311923021": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "129086577509": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "131827586825": {
+   "name": "Oracle",
+   "type": "",
+   "source": "https://blogs.oracle.com/linux/post/running-oracle-linux-in-public-clouds"
+  },
+  "134183635603": {
+   "name": "signalfx",
+   "type": "",
+   "source": "https://signalfx-product-docs.readthedocs-hosted.com/en/latest/getting-started/send-data.html"
+  },
+  "135269210855": {
+   "name": "RunsOn",
+   "type": "",
+   "source": "https://runs-on.com/blog/official-runner-images-for-aws/"
+  },
+  "135916806842": {
+   "name": "Orca Security",
+   "type": "",
+   "source": "https://orcasecurity.force.com/s/article/Orca-Scanner-Accounts-for-AWS-Trusted-Entities?topic=Onboarding&subtopic=AWS&article=Orca-Scanner-Accounts-for-AWS-Trusted-Entities"
+  },
+  "139710491120": {
+   "name": "k9 security",
+   "type": "",
+   "source": "https://www.k9security.io/docs/how-to-configure-k9-access/"
+  },
+  "142548018081": {
+   "name": "TigerData",
+   "type": "",
+   "source": "https://docs.tigerdata.com/migrate/latest/livesync-for-s3/"
+  },
+  "143972945659": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "144182107116": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "147995105371": {
+   "name": "Trend Micro deepsecurity",
+   "type": "",
+   "source": "https://esupport.trendmicro.com/media/13166096/Generate-AWS-Role.pdf"
+  },
+  "151742754352": {
+   "name": "EKS ECR Repositories",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/eks/latest/userguide/add-ons-images.html"
+  },
+  "151784055945": {
+   "name": "Barracuda Networks",
+   "type": "",
+   "source": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html"
+  },
+  "152659312504": {
+   "name": "Slack EKM",
+   "type": "",
+   "source": "https://slackhq.com/dotcom/dotcom/wp-content/uploads/sites/6/2019/08/Slack-EKM-Implementation-Guide-1.pdf"
+  },
+  "156460612806": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "160190466495": {
+   "name": "Temporal Technologies, Inc.",
+   "type": "",
+   "source": "https://temporal-auditlogs-config.s3.us-west-2.amazonaws.com/cloudformation/iam-role-for-temporal-audit-logs.yaml"
+  },
+  "163602625436": {
+   "name": "StackGuardian",
+   "type": "",
+   "source": "https://docs.stackguardian.io/docs/connectors/csp/aws"
+  },
+  "165736516723": {
+   "name": "Cloudability",
+   "type": "",
+   "source": "https://github.com/edrans/tf-aws-iam-cloudability"
+  },
+  "166639821150": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "168085023892": {
+   "name": "RedisCloud",
+   "type": "",
+   "source": "https://redis.io/kb/doc/1yfuezjxdv/migrating-from-elasticache-to-redis-cloud-via-s3-bucket"
+  },
+  "173985203412": {
+   "name": "Plerion",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "174803364771": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "175877067165": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "178123968615": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "178591426237": {
+   "name": "Xi Frame",
+   "type": "",
+   "source": ""
+  },
+  "179619298502": {
+   "name": "Starburst",
+   "type": "",
+   "source": "https://docs.starburst.io/starburst-galaxy/security-and-compliance/manage-cluster-connectivity/private-connections/aws-privatelink-for-rds.html"
+  },
+  "181328463391": {
+   "name": "Microsoft Purview",
+   "type": "",
+   "source": "https://learn.microsoft.com/en-us/purview/register-scan-amazon-rds"
+  },
+  "183060441923": {
+   "name": "Quartzy",
+   "type": "",
+   "source": "https://support.quartzy.com/hc/en-us/articles/12312389576731-Benchling-Integration-Setup-Guide"
+  },
+  "187074758985": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "188461706213": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "188619942792": {
+   "name": "Redlock - PrismaCloud",
+   "type": "",
+   "source": "https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin/connect-your-cloud-platform-to-prisma-cloud/onboard-aws/manually-set-up-prisma-cloud-role-for-aws"
+  },
+  "190560391635": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "190812797848": {
+   "name": "Monte Carlo",
+   "type": "",
+   "source": "https://docs.getmontecarlo.com/docs/create-and-register-an-aws-agent"
+  },
+  "192799248640": {
+   "name": "Nordcloud",
+   "type": "",
+   "source": "https://docs.klarity.nordcloudapp.com/onboarding-billing/"
+  },
+  "193415116832": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "193672423079": {
+   "name": "Redshift logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html"
+  },
+  "195145609632": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "197857026523": {
+   "name": "Azure Sentinel",
+   "type": "",
+   "source": ""
+  },
+  "198361731867": {
+   "name": "Snyk",
+   "type": "",
+   "source": "https://support.snyk.io/hc/en-us/articles/360004002418-AWS-Lambda-integration"
+  },
+  "200235630647": {
+   "name": "VManage",
+   "type": "",
+   "source": "https://www.cisco.com/c/en/us/td/docs/routers/sdwan/configuration/Network-Optimization-and-High-Availability/Network-Optimization-High-Availability-book/b_Network-Optimization-and-HA_chapter_00.html"
+  },
+  "202279780353": {
+   "name": "nOps",
+   "type": "",
+   "source": "https://help.nops.io/manual_setup"
+  },
+  "202754554539": {
+   "name": "Archera",
+   "type": "",
+   "source": "https://help.archera.ai/en/articles/5611146-what-is-the-archera-aws-account-id"
+  },
+  "203796963081": {
+   "name": "MadKudu",
+   "type": "",
+   "source": "https://support.madkudu.com/hc/en-us/articles/360036908291-Amazon-S3-Giving-MadKudu-access-to-an-S3-bucket"
+  },
+  "205499583182": {
+   "name": "ProsperOps",
+   "type": "",
+   "source": "https://console.prosperops.com/onboarding"
+  },
+  "205767712438": {
+   "name": "Qualys Cloud View",
+   "type": "",
+   "source": "https://qualysguard.qualys.com/qwebhelp/fo_portal/scans/ec2_connector.htm"
+  },
+  "210876761215": {
+   "name": "Redshift logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html"
+  },
+  "213217834095": {
+   "name": "Sonrai Security",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "216624486486": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "216690786812": {
+   "name": "Rockset",
+   "type": "",
+   "source": "https://docs.rockset.com/documentation/docs/customer-managed-encryption-keys"
+  },
+  "217452466226": {
+   "name": "Mackerel",
+   "type": "",
+   "source": "https://mackerel.io/docs/entry/integrations/aws#:~:text=How%20to%20configure%20an%20IAM%20role"
+  },
+  "218546966473": {
+   "name": "Stitch",
+   "type": "",
+   "source": "https://www.stitchdata.com/docs/destinations/amazon-s3/connecting-an-amazon-s3-data-warehouse-to-stitch"
+  },
+  "219670896067": {
+   "name": "Red Hat Enterprise Linux AMIs",
+   "type": "",
+   "source": "https://access.redhat.com/solutions/15356"
+  },
+  "220197662125": {
+   "name": "Testable",
+   "type": "",
+   "source": "https://docs.testable.io/guides/self-hosted-aws.html"
+  },
+  "225965583551": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "226283551151": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "226300430612": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "226609089145": {
+   "name": "sst.dev",
+   "type": "",
+   "source": "https://github.com/sst/sst/blob/master/packages/sst/src/constructs/NextjsSite.ts"
+  },
+  "230378978437": {
+   "name": "AlertLogic",
+   "type": "",
+   "source": "https://docs.alertlogic.com/prepare/iam-role-creation.htm#top"
+  },
+  "232482882421": {
+   "name": "Cloudinary",
+   "type": "",
+   "source": "https://support.cloudinary.com/hc/en-us/articles/203276521-How-do-I-allow-Cloudinary-to-read-from-my-private-S3-bucket-"
+  },
+  "232771856781": {
+   "name": "sst.dev",
+   "type": "",
+   "source": "https://github.com/sst/sst/blob/master/packages/sst/src/constructs/NextjsSite.ts"
+  },
+  "239734009475": {
+   "name": "AlertLogic",
+   "type": "",
+   "source": "https://docs.alertlogic.com/prepare/iam-role-creation.htm#top"
+  },
+  "241254095402": {
+   "name": "Kustomer",
+   "type": "",
+   "source": "https://help.kustomer.com/en_us/amazon-kinesis-data-streams-rJhIYV2fM"
+  },
+  "242987662583": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "243001516183": {
+   "name": "Snotra",
+   "type": "",
+   "source": "https://snotra.cloud/about"
+  },
+  "246478207311": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "247460962669": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "249472122084": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "253602268883": {
+   "name": "RunReveal",
+   "type": "",
+   "source": "https://runreveal-public-assets.s3.us-east-2.amazonaws.com/runreveal-cloudformation.yml"
+  },
+  "255798382450": {
+   "name": "Turbot",
+   "type": "",
+   "source": "https://turbot.com/v5/docs/integrations/aws/import-aws-account"
+  },
+  "258201882842": {
+   "name": "Postman",
+   "type": "",
+   "source": "https://learning.postman.com/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/"
+  },
+  "262260360010": {
+   "name": "Redshift logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html"
+  },
+  "262312530599": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "263844535661": {
+   "name": "Sysdig",
+   "type": "",
+   "source": "https://docs.sysdig.com/en/docs/administration/saas-regions-and-ip-ranges/#aws-account-ids"
+  },
+  "264756907367": {
+   "name": "FireEye",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "265975144233": {
+   "name": "SignifAI",
+   "type": "",
+   "source": "https://docs.signifai.io/docs/amazon-web-services"
+  },
+  "269135526815": {
+   "name": "Drata",
+   "type": "",
+   "source": "https://github.com/drata/terraform-aws-drata-autopilot-role/blob/f774d423a62df3a3dd03008a68c3b3d70b95be33/variables.tf#L1-L5"
+  },
+  "270852171095": {
+   "name": "CloudWisdom, metricly",
+   "type": "",
+   "source": ""
+  },
+  "279843869311": {
+   "name": "DoIt",
+   "type": "",
+   "source": "https://help.doit.com/docs/optimize/flexsave/aws"
+  },
+  "281013829959": {
+   "name": "hava",
+   "type": "",
+   "source": "https://github.com/teamhava/hava-integration-controltower/blob/main/lambda/README.md"
+  },
+  "282025262664": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "282028653949": {
+   "name": "LogicMonitor",
+   "type": "",
+   "source": ""
+  },
+  "283769539786": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "284668455005": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "287228555773": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "287590803701": {
+   "name": "Turbot",
+   "type": "",
+   "source": "https://turbot.com/v5/docs/integrations/aws/import-aws-account"
+  },
+  "292230061137": {
+   "name": "CrowdStrike",
+   "type": "",
+   "source": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html"
+  },
+  "296578399912": {
+   "name": "EKS ECR Repositories",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/eks/latest/userguide/add-ons-images.html"
+  },
+  "297058826802": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "297986523463": {
+   "name": "McAfee",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "299900769157": {
+   "name": "Doppler",
+   "type": "",
+   "source": "https://docs.doppler.com/docs/aws-iam"
+  },
+  "305753120797": {
+   "name": "EDB Postgres",
+   "type": "",
+   "source": "https://www.enterprisedb.com/edb-docs/d/edb-postgres-ark-platform/user-guides/administrative-users-guide/3.0/EDB_Ark_Administrative_User_Guide.1.20.html"
+  },
+  "307160386991": {
+   "name": "Redshift logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html"
+  },
+  "307185671274": {
+   "name": "Scale",
+   "type": "",
+   "source": "https://scale.com/docs/aws-s3"
+  },
+  "307653271100": {
+   "name": "MVision ePO",
+   "type": "",
+   "source": "https://docs.mcafee.com/bundle/prod-name-n.n.x-guide-type/page/GUID-9B6E696A-78DA-4F41-A0FC-39699DD39639.html"
+  },
+  "309956199498": {
+   "name": "Red Hat Enterprise Linux AMIs",
+   "type": "",
+   "source": "https://access.redhat.com/solutions/15356"
+  },
+  "310125036783": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "310957700191": {
+   "name": "CloudYali",
+   "type": "",
+   "source": "https://docs.cloudyali.io/docs/connecting_aws"
+  },
+  "312892722078": {
+   "name": "Descope",
+   "type": "",
+   "source": "https://docs.descope.com/connectors/connector-configuration-guides/audit-and-troubleshooting/aws-s3"
+  },
+  "314658760392": {
+   "name": "StackDriver",
+   "type": "",
+   "source": "https://web.archive.org/web/20150423044518/https://support.stackdriver.com/customer/portal/articles/1491790-setting-up-stackdriver-for-your-aws-account"
+  },
+  "316881668097": {
+   "name": "Steampipe Cloud",
+   "type": "",
+   "source": "https://cloud.steampipe.io/user/<USER-NAME>/create/connection"
+  },
+  "318212636800": {
+   "name": "Rockset",
+   "type": "",
+   "source": "https://docs.rockset.com/documentation/docs/customer-managed-encryption-keys"
+  },
+  "322919613312": {
+   "name": "Common Room",
+   "type": "",
+   "source": "https://www.commonroom.io/docs/signals/product-usage-integrations/s3/"
+  },
+  "324264561773": {
+   "name": "Guardicore",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "324528010823": {
+   "name": "Hightouch",
+   "type": "",
+   "source": "https://hightouch.com/docs/security/aws"
+  },
+  "324880187172": {
+   "name": "Spacelift",
+   "type": "",
+   "source": "https://docs.spacelift.io/integrations/cloud-providers/aws"
+  },
+  "328067584297": {
+   "name": "globus",
+   "type": "",
+   "source": "https://docs.globus.org/how-to/amazon-aws-s3-endpoints/"
+  },
+  "328676173091": {
+   "name": "orbitera",
+   "type": "",
+   "source": "https://support.orbitera.com/support/solutions/articles/147040-add-new-aws-accounts"
+  },
+  "336818582268": {
+   "name": "Rapid7",
+   "type": "",
+   "source": "https://insightvm.help.rapid7.com/docs/aws-connect-to-cloud-configuration-assessment"
+  },
+  "337853574888": {
+   "name": "Tableau",
+   "type": "",
+   "source": "https://help.salesforce.com/s/articleView?id=005232922&type=1"
+  },
+  "338661164609": {
+   "name": "mParticle",
+   "type": "",
+   "source": "https://docs.mparticle.com/guides/data-warehouse-sync/"
+  },
+  "339405024189": {
+   "name": "Domo",
+   "type": "",
+   "source": "https://knowledge.domo.com/Connect/Connecting_to_Data_with_Connectors/Configuring_Each_Connector/Connectors_for_File_Retrieval/Amazon_S3_AssumeRole_Connector"
+  },
+  "340457201789": {
+   "name": "Upwind",
+   "type": "",
+   "source": "https://docs.upwind.io/public/getting-started/connect-cloud-account/aws/v1/organization#run-cloudformation-stackset-template"
+  },
+  "340481513670": {
+   "name": "Anodot",
+   "type": "",
+   "source": "https://support.anodot.com/hc/en-us/articles/360034553113-Enable-Reading-from-the-Kinesis-Stream"
+  },
+  "341876425553": {
+   "name": "Census",
+   "type": "",
+   "source": "https://docs.getcensus.com/sources/available-sources/s3"
+  },
+  "345084742485": {
+   "name": "Marketplace",
+   "type": "aws",
+   "source": "https://documentation.ubuntu.com/aws/aws-how-to/instances/find-ubuntu-images/"
+  },
+  "345186984524": {
+   "name": "Armor Anywhere",
+   "type": "",
+   "source": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html"
+  },
+  "349070092441": {
+   "name": "Tableau",
+   "type": "",
+   "source": "https://help.salesforce.com/s/articleView?id=005232922&type=1"
+  },
+  "351456651185": {
+   "name": "Ox",
+   "type": "",
+   "source": "https://docs.ox.security/making-connections/aws"
+  },
+  "352813966189": {
+   "name": "CloudCheckr",
+   "type": "",
+   "source": "https://support.cloudcheckr.com/cloudcheckr-api-userguide/cloudcheckr-admin-api-reference-guide/"
+  },
+  "353360065216": {
+   "name": "Workato",
+   "type": "",
+   "source": "https://docs.workato.com/connectors/s3.html"
+  },
+  "353488359550": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "354116250941": {
+   "name": "Temporal Technologies, Inc.",
+   "type": "",
+   "source": "https://temporal-auditlogs-config.s3.us-west-2.amazonaws.com/cloudformation/iam-role-for-temporal-audit-logs.yaml"
+  },
+  "359345898052": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "361669875840": {
+   "name": "Redshift logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html"
+  },
+  "365761988620": {
+   "name": "Forcepoint",
+   "type": "",
+   "source": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html"
+  },
+  "368064434614": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "370134896156": {
+   "name": "Fugue",
+   "type": "",
+   "source": "https://docs.fugue.co/setup.html"
+  },
+  "371444783282": {
+   "name": "SendSafely",
+   "type": "",
+   "source": "https://sendsafely.zendesk.com/hc/en-us/articles/360028308212-Configuring-your-own-S3-Bucket-for-use-with-SendSafely"
+  },
+  "376248598259": {
+   "name": "Weave Cloud",
+   "type": "",
+   "source": "https://eksctl.io/"
+  },
+  "378365507264": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "380873608913": {
+   "name": "Sonrai Security",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "381031177744": {
+   "name": "AttackIQ",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "383009515534": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "383597477331": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "386209384616": {
+   "name": "Billing",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-getting-started.html#step-2"
+  },
+  "386705975570": {
+   "name": "mParticle",
+   "type": "",
+   "source": "https://docs.mparticle.com/guides/data-warehouse-sync/"
+  },
+  "387553343826": {
+   "name": "Cloudera",
+   "type": "",
+   "source": "https://blog.cloudera.com/cloudera-altus-cloud-services-youre-in-control-part-2/"
+  },
+  "388731089494": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "391106570357": {
+   "name": "Redshift logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html"
+  },
+  "391854517948": {
+   "name": "Cloudflare",
+   "type": "",
+   "source": "https://developers.cloudflare.com/logs/logpush/aws-s3"
+  },
+  "392220576650": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "392442076723": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "393309748692": {
+   "name": "Hevo",
+   "type": "",
+   "source": "https://docs.hevodata.com/destinations/cloud-storage-based/amazon-s3-destination/"
+  },
+  "393649089167": {
+   "name": "Spotinst",
+   "type": "",
+   "source": "https://docs.spot.io/connect-your-cloud-provider/first-account/aws-manually"
+  },
+  "393727464233": {
+   "name": "Summit Route",
+   "type": "",
+   "source": "https://summitroute.com/aws_security_assessments/"
+  },
+  "394634713161": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "395540211253": {
+   "name": "Zencoder",
+   "type": "",
+   "source": "https://support.brightcove.com/using-zencoder-s3"
+  },
+  "398671365691": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "398997493752": {
+   "name": "unusd.cloud",
+   "type": "",
+   "source": "https://unusd-cloud-saas-prod-artifacts-spoke.s3.eu-west-1.amazonaws.com/spoke-role.yml"
+  },
+  "404001805210": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "404641285394": {
+   "name": "Redshift logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html"
+  },
+  "405773942477": {
+   "name": "Axonius.com",
+   "type": "",
+   "source": ""
+  },
+  "406095609952": {
+   "name": "Logz.io",
+   "type": "",
+   "source": ""
+  },
+  "408097707231": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "414351767826": {
+   "name": "Databricks",
+   "type": "",
+   "source": "https://docs.databricks.com/administration-guide/account-settings/aws-accounts.html"
+  },
+  "414502572119": {
+   "name": "rev.com",
+   "type": "",
+   "source": "https://www.rev.com/api/s3bucketpolicy"
+  },
+  "420376844563": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "422074288268": {
+   "name": "RudderStack",
+   "type": "",
+   "source": "https://www.rudderstack.com/docs/destinations/aws-iam-role-for-rudderstack/"
+  },
+  "422820575223": {
+   "name": "Tenable",
+   "type": "",
+   "source": "https://docs.tenable.com/tenableio/vulnerabilitymanagement/Content/Settings/Connectors_ConfigureAWS_KeylessAutoDiscovery.htm"
+  },
+  "423155938983": {
+   "name": "SSLMate",
+   "type": "",
+   "source": "https://sslmate.com/help/reference/misc#aws_integration"
+  },
+  "427812963091": {
+   "name": "NixOS",
+   "type": "",
+   "source": "https://nixos.github.io/amis/"
+  },
+  "428641199958": {
+   "name": "Upsolver",
+   "type": "",
+   "source": ""
+  },
+  "429269239926": {
+   "name": "QRadar",
+   "type": "",
+   "source": ""
+  },
+  "429538831549": {
+   "name": "Slack EKM",
+   "type": "",
+   "source": "https://slackhq.com/dotcom/dotcom/wp-content/uploads/sites/6/2019/08/Slack-EKM-Implementation-Guide-1.pdf"
+  },
+  "430639793359": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "432263259397": {
+   "name": "Azure Billing Management",
+   "type": "",
+   "source": "https://docs.microsoft.com/en-us/azure/cost-management/aws-integration-manage"
+  },
+  "434091160558": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "434813966438": {
+   "name": "Lacework",
+   "type": "",
+   "source": "https://support.lacework.com/hc/en-us/articles/360017546933-Getting-Started"
+  },
+  "436163563069": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "438908802199": {
+   "name": "Qualys",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "440082503234": {
+   "name": "KubeCost",
+   "type": "",
+   "source": "https://docs.kubecost.com/v/1.0x/install-and-configure/install/cloud-integration/aws-cloud-integrations/aws-cloud-integration-using-irsa"
+  },
+  "445632894446": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "447226417196": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "448721096076": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "451234325714": {
+   "name": "Flexera",
+   "type": "",
+   "source": "https://github.com/flexera-public/aws-control-tower/blob/1da3eb7d96e6f31cf64fa317d77a3405ac61431f/template/flexeraOptimaAWSControlTower.yaml#L227"
+  },
+  "452118225523": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "452565589796": {
+   "name": "Commerce Analytics Service",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/marketplace/latest/userguide/commerce-analytics-service.html"
+  },
+  "453052556044": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "453761072151": {
+   "name": "Turbot",
+   "type": "",
+   "source": "https://turbot.com/v5/docs/integrations/aws/import-aws-account"
+  },
+  "454464851268": {
+   "name": "Cloudhealth",
+   "type": "",
+   "source": "https://github.com/mozilla/security/blob/master/operations/cloudformation-templates/cloudhealth_iam_role.json"
+  },
+  "455263428931": {
+   "name": "EKS ECR Repositories",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/eks/latest/userguide/add-ons-images.html"
+  },
+  "457424274508": {
+   "name": "Codeshield",
+   "type": "",
+   "source": "https://codeshield-public-templates-production.s3.eu-central-1.amazonaws.com/aws_connect_codeshield.yml"
+  },
+  "457615622431": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "461305247324": {
+   "name": "SafeGraph",
+   "type": "",
+   "source": "https://docs.safegraph.com/docs/s3#s3-bucket-configuration"
+  },
+  "463932680998": {
+   "name": "Orca Security",
+   "type": "",
+   "source": "https://orcasecurity.force.com/s/article/Orca-Scanner-Accounts-for-AWS-Trusted-Entities?topic=Onboarding&subtopic=AWS&article=Orca-Scanner-Accounts-for-AWS-Trusted-Entities"
+  },
+  "464168911255": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "464622532012": {
+   "name": "Datadog",
+   "type": "",
+   "source": "https://docs.datadoghq.com/integrations/guide/aws-manual-setup/"
+  },
+  "473191095985": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "474240146802": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "475085895292": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "476299211833": {
+   "name": "StackGuardian",
+   "type": "",
+   "source": "https://docs.stackguardian.io/docs/connectors/csp/aws"
+  },
+  "476419727788": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "478299826944": {
+   "name": "skeddly",
+   "type": "",
+   "source": "http://thecloudmarket.com/owner/478299826944"
+  },
+  "480864352451": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "485438090326": {
+   "name": "Mixpanel",
+   "type": "",
+   "source": "https://docs.mixpanel.com/docs/data-pipelines/integrations/aws-s3"
+  },
+  "485979073181": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "490991382221": {
+   "name": "Contrast Security",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "491585149902": {
+   "name": "EKS ECR Repositories",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/eks/latest/userguide/add-ons-images.html"
+  },
+  "492519147666": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "496947949261": {
+   "name": "Redlock - PrismaCloud",
+   "type": "",
+   "source": "https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin/connect-your-cloud-platform-to-prisma-cloud/onboard-aws/manually-set-up-prisma-cloud-role-for-aws"
+  },
+  "506403581195": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "507069717855": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "507241528517": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "507897595701": {
+   "name": "Rackspace",
+   "type": "",
+   "source": "https://manage.rackspace.com/aws/docs/product-guide/patching/ec2/meltdown.html"
+  },
+  "509560245411": {
+   "name": "dynatrace",
+   "type": "",
+   "source": "https://help.dynatrace.com/monitor-cloud-virtualization-and-hosts/cloud/how-do-i-start-amazon-web-services-monitoring/"
+  },
+  "513442679011": {
+   "name": "Canonical",
+   "type": "",
+   "source": "https://ubuntu.com/server/docs/cloud-images/amazon-ec2"
+  },
+  "515570774723": {
+   "name": "ChaosSearch",
+   "type": "",
+   "source": "https://docs.chaossearch.io/docs/prerequisites"
+  },
+  "517716713836": {
+   "name": "CrowdStrike",
+   "type": "",
+   "source": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html"
+  },
+  "525041748188": {
+   "name": "Turbot",
+   "type": "",
+   "source": "https://turbot.com/v5/docs/integrations/aws/import-aws-account"
+  },
+  "525325868955": {
+   "name": "Anyscale",
+   "type": "",
+   "source": "https://docs.anyscale.com/1.0.0/cloud-deployment/aws/manage-clouds/"
+  },
+  "525921808201": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "526464060896": {
+   "name": "mParticle",
+   "type": "",
+   "source": "https://docs.mparticle.com/guides/data-warehouse-sync/"
+  },
+  "529900636122": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "530014582677": {
+   "name": "Rackspace",
+   "type": "",
+   "source": "https://manage.rackspace.com/aws/docs/product-guide/patching/ec2/meltdown.html"
+  },
+  "535002876703": {
+   "name": "Determinate Systems",
+   "type": "",
+   "source": "https://determinate.systems/blog/nixos-amis/"
+  },
+  "536727724300": {
+   "name": "MongoDB Atlas",
+   "type": "",
+   "source": "https://github.com/mongodb/mongodbatlas-cloudformation-resources/blob/50e556bb4641ac6baed07a3b3b5bbf28c01d73bc/cfn-resources/datalakes/test/add-policy.json"
+  },
+  "540339316802": {
+   "name": "CenturyLinkCloud",
+   "type": "",
+   "source": "https://www.ctl.io/knowledge-base/cloud-application-manager/deploying-anywhere/using-your-aws-account/"
+  },
+  "544388816663": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "545334166883": {
+   "name": "CloudHiro",
+   "type": "",
+   "source": "https://cloudhiro.com/AWS/AWSRegistrationGuide.php"
+  },
+  "546914126324": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "552740612889": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "553461782468": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "553950354547": {
+   "name": "Orca Security",
+   "type": "",
+   "source": "https://orcasecurity.force.com/s/article/Orca-Scanner-Accounts-for-AWS-Trusted-Entities?topic=Onboarding&subtopic=AWS&article=Orca-Scanner-Accounts-for-AWS-Trusted-Entities"
+  },
+  "554582317989": {
+   "name": "LaunchDarkly",
+   "type": "",
+   "source": "https://launchdarkly.com/docs/home/flags/segment-config#expand-creating-the-aws-role"
+  },
+  "557690616787": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "558211695259": {
+   "name": "Cloud Ranger",
+   "type": "",
+   "source": ""
+  },
+  "558608220178": {
+   "name": "EKS ECR Repositories",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/eks/latest/userguide/add-ons-images.html"
+  },
+  "561602220360": {
+   "name": "DoIt",
+   "type": "",
+   "source": "https://help.doit.com/docs/optimize/flexsave/aws"
+  },
+  "568526795995": {
+   "name": "Cisco Umbrella",
+   "type": "",
+   "source": "https://docs.umbrella.com/umbrella-user-guide/docs/enable-logging-to-your-own-s3-bucket"
+  },
+  "582318560864": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "582488909970": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "583371261087": {
+   "name": "mParticle",
+   "type": "",
+   "source": "https://docs.mparticle.com/guides/data-warehouse-sync/"
+  },
+  "585459848136": {
+   "name": "SecureCloudDB",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "585772288577": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "588158338731": {
+   "name": "Plerion",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "589173575009": {
+   "name": "Red Hat Hybrid Cloud",
+   "type": "",
+   "source": "https://access.redhat.com/documentation/en-us/hybrid_committed_spend/1-latest/html-single/integrating_amazon_web_services_aws_data_into_hybrid_committed_spend/index"
+  },
+  "589379963580": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "590381155156": {
+   "name": "EKS ECR Repositories",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/eks/latest/userguide/add-ons-images.html"
+  },
+  "595013617770": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "595280932656": {
+   "name": "SegmentIO",
+   "type": "",
+   "source": "https://segment.com/docs/destinations/amazon-s3/"
+  },
+  "595653072700": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "600734575887": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "601306020600": {
+   "name": "Databricks",
+   "type": "",
+   "source": "https://docs.databricks.com/administration-guide/account-settings/aws-accounts.html"
+  },
+  "602401143452": {
+   "name": "EKS ECR Repositories",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/eks/latest/userguide/add-ons-images.html"
+  },
+  "607237235771": {
+   "name": "TrendMicro",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "608710470296": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "612791702201": {
+   "name": "JupiterOne",
+   "type": "",
+   "source": "https://github.com/JupiterOne/jupiterone-aws-cloudformation/commit/c9abbbcc3e29474c6605a6f8ace5ec0ff475d3f8"
+  },
+  "614065512851": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "615915377779": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "617935088040": {
+   "name": "Twingate",
+   "type": "",
+   "source": "https://www.twingate.com/docs/terraform-aws"
+  },
+  "618708667954": {
+   "name": "freshservice",
+   "type": "",
+   "source": "https://support.freshservice.com/support/solutions/articles/207515-creating-a-role-arn-for-integrating-amazon-web-services-aws-in-freshservice"
+  },
+  "619233833001": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "622384692065": {
+   "name": "Domo",
+   "type": "",
+   "source": "https://knowledge.domo.com/Connect/Connecting_to_Data_with_Connectors/Configuring_Each_Connector/Connectors_for_File_Retrieval/Amazon_S3_AssumeRole_Connector"
+  },
+  "623102672691": {
+   "name": "Tableau",
+   "type": "",
+   "source": "https://help.salesforce.com/s/articleView?id=005232922&type=1"
+  },
+  "623197973179": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "624537489435": {
+   "name": "instaclustr",
+   "type": "",
+   "source": "https://support.instaclustr.com/hc/en-us/articles/226565607-Setting-Up-a-Datacenter-with-EBS-Encryption"
+  },
+  "627743545735": {
+   "name": "Spotinst",
+   "type": "",
+   "source": "https://docs.spot.io/connect-your-cloud-provider/first-account/aws-manually"
+  },
+  "631144002099": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "631402103377": {
+   "name": "Caveonix",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "634729597623": {
+   "name": "Checkpoint Cloudguard",
+   "type": "",
+   "source": "https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk159912&partition=Basic&product=CloudGuard"
+  },
+  "635005593121": {
+   "name": "Prophetstor Federator.ai",
+   "type": "",
+   "source": "https://prophetstor.com/wp-content/uploads/documentation/Federator.ai/Setup%20Guide/Federator.ai%20AWS%20IAM%20Role%20and%20IAM%20Policy%20Setup%20Guide.pdf"
+  },
+  "635144173025": {
+   "name": "redline13",
+   "type": "",
+   "source": "https://www.redline13.com/blog/aws-setup/"
+  },
+  "635631232127": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "638102146993": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "644042651268": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "646602203151": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "651179539253": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "652050842985": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "652364314486": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "652711504416": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "654654195764": {
+   "name": "Vanta",
+   "type": "",
+   "source": "https://help.vanta.com/hc/en-us/articles/8451925240980-Connecting-Vanta-AWS-Organization"
+  },
+  "660998842044": {
+   "name": "Redshift logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html"
+  },
+  "665986001363": {
+   "name": "Convox",
+   "type": "",
+   "source": "https://convox.com/docs/aws-integration"
+  },
+  "667498515984": {
+   "name": "Tableau",
+   "type": "",
+   "source": "https://help.salesforce.com/s/articleView?id=005232922&type=1"
+  },
+  "668912161003": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "669213148797": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "669305197877": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "672188301118": {
+   "name": "Zesty",
+   "type": "",
+   "source": "https://github.com/zesty-co/AWS-Integration/blob/main/Zesty-Minimal-ReadOnly-IAM-Role.json"
+  },
+  "675003682462": {
+   "name": "Tableau",
+   "type": "",
+   "source": "https://help.salesforce.com/s/articleView?id=005232922&type=1"
+  },
+  "675479154635": {
+   "name": "ThingSpace",
+   "type": "",
+   "source": "https://thingspace.verizon.com/resources/documentation/cloudconnector/Getting_Started/Streaming_to_AWS/"
+  },
+  "675681123645": {
+   "name": "TrendMicro",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "679593333241": {
+   "name": "Marketplace",
+   "type": "aws",
+   "source": "https://documentation.ubuntu.com/aws/aws-how-to/instances/find-ubuntu-images/"
+  },
+  "679703615338": {
+   "name": "Armor Anywhere",
+   "type": "",
+   "source": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html"
+  },
+  "681348832753": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "682251015962": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "687132894031": {
+   "name": "Domo",
+   "type": "",
+   "source": "https://knowledge.domo.com/Connect/Connecting_to_Data_with_Connectors/Configuring_Each_Connector/Connectors_for_File_Retrieval/Amazon_S3_AssumeRole_Connector"
+  },
+  "691523222388": {
+   "name": "Ottertune",
+   "type": "",
+   "source": "https://docs.ottertune.com/support/kb/articles/49EvgwW7/create-iam-role"
+  },
+  "693780578038": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "694668203235": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "695990169366": {
+   "name": "CloudManager for CloudVolumes",
+   "type": "",
+   "source": "https://docs.netapp.com/us-en/cloud_volumes/aws/media/cvs_aws_account_setup.pdf"
+  },
+  "703715109447": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "710019948333": {
+   "name": "Red Hat",
+   "type": "",
+   "source": "https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-sts-ocm-role"
+  },
+  "710193521658": {
+   "name": "ylastic",
+   "type": "",
+   "source": "https://blog.ylastic.com/post/153943542476/iam-role-with-external-id-for-cross-account-access"
+  },
+  "713597048934": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "716309063777": {
+   "name": "Improvado",
+   "type": "",
+   "source": "https://improvado.io/docs/aws-s3-destination"
+  },
+  "717025312494": {
+   "name": "Sonrai Security",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "717210094962": {
+   "name": "CloudConformity",
+   "type": "",
+   "source": "https://github.com/cloudconformity/documentation-api/blob/master/Accounts.md#update-account"
+  },
+  "718504428378": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "718770453195": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "719465667078": {
+   "name": "kochava",
+   "type": "",
+   "source": "https://support.kochava.com/reference-information/traffic-import-tool"
+  },
+  "720226181253": {
+   "name": "k9 security",
+   "type": "",
+   "source": "https://www.k9security.io/docs/how-to-configure-k9-access/"
+  },
+  "726941830086": {
+   "name": "TheGlobalSolutions.net",
+   "type": "",
+   "source": "http://www.theglobalsolutions.net/awspatching/saas_help.php"
+  },
+  "727378841472": {
+   "name": "nOps",
+   "type": "",
+   "source": "https://help.nops.io/manual_setup"
+  },
+  "727815099310": {
+   "name": "Orca Security",
+   "type": "",
+   "source": "https://orcasecurity.force.com/s/article/Orca-Scanner-Accounts-for-AWS-Trusted-Entities?topic=Onboarding&subtopic=AWS&article=Orca-Scanner-Accounts-for-AWS-Trusted-Entities"
+  },
+  "733251395267": {
+   "name": "AlertLogic",
+   "type": "",
+   "source": "https://docs.alertlogic.com/prepare/iam-role-creation.htm#top"
+  },
+  "736689547456": {
+   "name": "Plerion",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "737318609257": {
+   "name": "Trend Micro Cloud One",
+   "type": "",
+   "source": "https://cloudone.trendmicro.com/docs/network-security/api-reference/tag/Notifications/"
+  },
+  "741172661024": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "746108190720": {
+   "name": "OpsLevel",
+   "type": "",
+   "source": "https://docs.opslevel.com/docs/infrastructure"
+  },
+  "749430749651": {
+   "name": "CyberArk",
+   "type": "",
+   "source": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html"
+  },
+  "749779118921": {
+   "name": "Brightcove",
+   "type": "",
+   "source": "https://support.brightcove.com/using-dynamic-ingest-s3"
+  },
+  "753362059629": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "753542375798": {
+   "name": "ParkMyCloud",
+   "type": "",
+   "source": "https://parkmycloud.atlassian.net/wiki/spaces/PMCUG/pages/43876427/Create+an+IAM+Role+in+AWS+for+ParkMyCloud"
+  },
+  "754237914691": {
+   "name": "Symantec Cloud Workload Protection",
+   "type": "",
+   "source": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html"
+  },
+  "754344448648": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "754728514883": {
+   "name": "New Relic",
+   "type": "",
+   "source": "https://docs.newrelic.com/docs/integrations/amazon-integrations/get-started/connect-aws-services-infrastructure"
+  },
+  "755047402263": {
+   "name": "cloudbreak",
+   "type": "",
+   "source": "https://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.3.0/bk_cldbrk_install/bk_CLBK_IAG/content/clbk_iam_console.html"
+  },
+  "755778135062": {
+   "name": "Snyk",
+   "type": "",
+   "source": "https://support.snyk.io/hc/en-us/articles/360004002418-AWS-Lambda-integration"
+  },
+  "757211635381": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "757913464184": {
+   "name": "Tealium",
+   "type": "",
+   "source": "https://docs.tealium.com/early-access/server-side-connectors/databricks-customer-provided-storage-connector/"
+  },
+  "758245563457": {
+   "name": "Check Point",
+   "type": "",
+   "source": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html"
+  },
+  "759879836304": {
+   "name": "EKS ECR Repositories",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/eks/latest/userguide/add-ons-images.html"
+  },
+  "759994998399": {
+   "name": "cloudsqueeze",
+   "type": "",
+   "source": "https://app.cloudsqueeze.ai/awsAddAccount"
+  },
+  "760740231472": {
+   "name": "Redshift logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html"
+  },
+  "761931097553": {
+   "name": "Sysdig",
+   "type": "",
+   "source": "https://docs.sysdig.com/en/docs/administration/saas-regions-and-ip-ranges/#aws-account-ids"
+  },
+  "762762565011": {
+   "name": "Redshift logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html"
+  },
+  "763284681916": {
+   "name": "Contrast Security",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "764870610256": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "765225791966": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "765628985471": {
+   "name": "Genys",
+   "type": "",
+   "source": "https://help.mypurecloud.com/articles/create-iam-resources-to-invoke-an-aws-lambda-function/"
+  },
+  "781965151837": {
+   "name": "Rafay",
+   "type": "",
+   "source": "https://docs.rafay.co/learn/quickstart/som/eks/setup/"
+  },
+  "782774275127": {
+   "name": "GitLab",
+   "type": "",
+   "source": "https://docs.gitlab.com/ee/solutions/cloud/aws/gitlab_single_box_on_aws.html#official-gitlab-releases-as-amis"
+  },
+  "783225319266": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "784971140435": {
+   "name": "Orca Security",
+   "type": "",
+   "source": "https://orcasecurity.force.com/s/article/Orca-Scanner-Accounts-for-AWS-Trusted-Entities?topic=Onboarding&subtopic=AWS&article=Orca-Scanner-Accounts-for-AWS-Trusted-Entities"
+  },
+  "787223699828": {
+   "name": "HYCU",
+   "type": "",
+   "source": "https://download.hycu.com/ec/v4.8.0/help/en/HYCU_UserGuide.pdf"
+  },
+  "787461962774": {
+   "name": "Rezonate",
+   "type": "",
+   "source": "https://kb.rezonate.io/core-integrations/aws-integration/aws-required-privileges"
+  },
+  "790110701330": {
+   "name": "Databricks",
+   "type": "",
+   "source": "https://docs.databricks.com/administration-guide/account-settings/aws-accounts.html"
+  },
+  "790247189693": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "792479604904": {
+   "name": "Tableau",
+   "type": "",
+   "source": "https://help.salesforce.com/s/articleView?id=005232922&type=1"
+  },
+  "793525387755": {
+   "name": "Salesforce",
+   "type": "",
+   "source": "https://help.salesforce.com/s/articleView?id=sf.voice_ac_iam_role.htm&language=en_US&type=5"
+  },
+  "793733611312": {
+   "name": "Snowplow",
+   "type": "",
+   "source": "https://docs.snowplow.io/docs/get-started/snowplow-bdp/private-managed-cloud/setup-guide-aws/"
+  },
+  "794878508631": {
+   "name": "MediaMath",
+   "type": "",
+   "source": "https://apidocs.mediamath.com/reporting/log-level-data-service/overview#data-security-and-authorization"
+  },
+  "796887884028": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "797873946194": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "798376113853": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "799803075172": {
+   "name": "Lucidchart",
+   "type": "",
+   "source": "https://lucidchart.zendesk.com/hc/en-us/articles/208018563-Create-an-IAM-User-or-a-Cross-Account-Role-in-AWS-for-Lucidchart"
+  },
+  "800184023465": {
+   "name": "EKS ECR Repositories",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/eks/latest/userguide/add-ons-images.html"
+  },
+  "802587217904": {
+   "name": "Serverless",
+   "type": "",
+   "source": "https://www.serverless.com/framework/docs/guides/monitoring/notifications"
+  },
+  "802876684602": {
+   "name": "Axonius.com",
+   "type": "",
+   "source": ""
+  },
+  "805246085872": {
+   "name": "qubole",
+   "type": "",
+   "source": "https://docs.qubole.com/en/latest/user-guide/managing-accounts/aws/iam-roles/override-iam-roles.html"
+  },
+  "805950163170": {
+   "name": "Qualys AWS EC2 Connector",
+   "type": "",
+   "source": "https://qualys-secure.force.com/discussions/s/question/0D52L00004TnxTqSAJ/aws-ec2-connector-creation-automation"
+  },
+  "806199016981": {
+   "name": "AWS IP address ranges notifications",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html#subscribe-notifications"
+  },
+  "809336252980": {
+   "name": "Drata",
+   "type": "",
+   "source": "https://github.com/drata/terraform-aws-drata-autopilot-role/blob/f774d423a62df3a3dd03008a68c3b3d70b95be33/variables.tf#L1-L5"
+  },
+  "810369035479": {
+   "name": "Fugue",
+   "type": "",
+   "source": "https://docs.fugue.co/setup.html"
+  },
+  "811620960246": {
+   "name": "TrendMicro",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "814021343637": {
+   "name": "Cloudaware",
+   "type": "",
+   "source": ""
+  },
+  "814480443879": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "815843069303": {
+   "name": "Atlassian",
+   "type": "",
+   "source": "https://support.atlassian.com/cloud-automation/docs/configure-aws-sns-for-jira-automation/"
+  },
+  "817364327683": {
+   "name": "Axonius.com",
+   "type": "",
+   "source": ""
+  },
+  "819232936619": {
+   "name": "Temporal Technologies, Inc.",
+   "type": "",
+   "source": "https://temporal-auditlogs-config.s3.us-west-2.amazonaws.com/cloudformation/iam-role-for-temporal-audit-logs.yaml"
+  },
+  "819402241893": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "819814149250": {
+   "name": "StarTree",
+   "type": "",
+   "source": "https://dev.startree.ai/docs/get-started-with-startree-cloud/byoc/cloud-provider#create-an-iam-role"
+  },
+  "820923007224": {
+   "name": "Claroty",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "823104324086": {
+   "name": "Red Canary",
+   "type": "",
+   "source": "https://help.redcanary.com/hc/en-us/articles/16640944173463-Integrate-Amazon-Web-Services-AWS-with-Red-Canary"
+  },
+  "825838939522": {
+   "name": "Tines",
+   "type": "",
+   "source": "https://www.tines.com/docs/credentials/aws/"
+  },
+  "826182721854": {
+   "name": "Usage AI",
+   "type": "",
+   "source": "https://cloudopt.usage.ai/onboard"
+  },
+  "826438284864": {
+   "name": "k9 security",
+   "type": "",
+   "source": "https://www.k9security.io/docs/how-to-configure-k9-access/"
+  },
+  "828603743433": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "829095311197": {
+   "name": "Transcend",
+   "type": "",
+   "source": "https://transcend.io/blog/why-we-built-cli-terraform-provider"
+  },
+  "829690693026": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "829909441867": {
+   "name": "Temporal Technologies, Inc.",
+   "type": "",
+   "source": "https://temporal-auditlogs-config.s3.us-west-2.amazonaws.com/cloudformation/iam-role-for-temporal-audit-logs.yaml"
+  },
+  "834469178297": {
+   "name": "Fivetran",
+   "type": "",
+   "source": "https://fivetran.com/docs/logs/cloudwatch/setup-guide"
+  },
+  "835822366011": {
+   "name": "ADC Application Deployment, ADM Delivery Management",
+   "type": "",
+   "source": "https://docs.citrix.com/en-us/citrix-application-delivery-management-service/hybrid-multi-cloud-deployments/autoscale-for-aws/autoscale-for-aws-configuration.html"
+  },
+  "837727238323": {
+   "name": "Canonical",
+   "type": "",
+   "source": "https://ubuntu.com/server/docs/cloud-images/amazon-ec2"
+  },
+  "842447150064": {
+   "name": "ServiceNow",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "842984801698": {
+   "name": "Onelogin",
+   "type": "",
+   "source": "https://onelogin.service-now.com/kb_view_customer.do?sysparm_article=KB0010344"
+  },
+  "843529240033": {
+   "name": "FoxPass",
+   "type": "",
+   "source": "https://docs.foxpass.com/docs/access-control-integration-with-amazon-ec2"
+  },
+  "849137399833": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "850507053895": {
+   "name": "Vanta",
+   "type": "",
+   "source": "https://help.vanta.com/hc/en-us/articles/8451925240980-Connecting-Vanta-AWS-Organization"
+  },
+  "854209929931": {
+   "name": "Fortinet",
+   "type": "",
+   "source": "https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/bf017449-572a-11e9-81a4-00505692583a/forticasb-4.1.0-admin-guide.pdf"
+  },
+  "855262394183": {
+   "name": "GitLab",
+   "type": "",
+   "source": "https://docs.gitlab.com/ee/solutions/cloud/aws/gitlab_single_box_on_aws.html#official-gitlab-releases-as-amis"
+  },
+  "855739686837": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "857223745291": {
+   "name": "Tines",
+   "type": "",
+   "source": "https://www.tines.com/docs/credentials/aws/"
+  },
+  "857795874556": {
+   "name": "AlertLogic",
+   "type": "",
+   "source": "https://docs.alertlogic.com/prepare/iam-role-creation.htm#top"
+  },
+  "858827067514": {
+   "name": "AWS Log Delivery Service",
+   "type": "",
+   "source": "https://forums.aws.amazon.com/thread.jspa?messageID=629256"
+  },
+  "859597730677": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "862820443276": {
+   "name": "Trend Micro deepsecurity",
+   "type": "",
+   "source": "https://esupport.trendmicro.com/media/13166096/Generate-AWS-Role.pdf"
+  },
+  "863002038009": {
+   "name": "CloudPhysics",
+   "type": "",
+   "source": "https://www.cloudphysics.com/connectaws/"
+  },
+  "863518437308": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "865078226113": {
+   "name": "Datadog",
+   "type": "",
+   "source": "https://docs.datadoghq.com/integrations/guide/aws-manual-setup/"
+  },
+  "865932855811": {
+   "name": "Redshift logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html"
+  },
+  "866607715269": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "867642063380": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "868324285112": {
+   "name": "TrendMicro",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "874540850173": {
+   "name": "SailPoint",
+   "type": "",
+   "source": "https://documentation.sailpoint.com/saas/help/ciem/aws/config/config_aws_manual.html#commercial"
+  },
+  "874749492622": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "877085696533": {
+   "name": "EKS ECR Repositories",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/eks/latest/userguide/add-ons-images.html"
+  },
+  "883241448326": {
+   "name": "Claroty",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "884047677700": {
+   "name": "Emnify",
+   "type": "",
+   "source": "https://www.emnify.com/datastreamer-integration-into-aws"
+  },
+  "884866656237": {
+   "name": "Spotinst",
+   "type": "",
+   "source": "https://docs.spot.io/connect-your-cloud-provider/first-account/aws-manually"
+  },
+  "885798887673": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "886388586500": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "890234264427": {
+   "name": "Bridgecrew",
+   "type": "",
+   "source": "https://bridgecrew.cloud"
+  },
+  "891612552178": {
+   "name": "Tailscale",
+   "type": "",
+   "source": "https://tailscale.com/kb/1255/log-streaming?tab=amazon+s3"
+  },
+  "892386869973": {
+   "name": "Tableau",
+   "type": "",
+   "source": "https://help.salesforce.com/s/articleView?id=005232922&type=1"
+  },
+  "894794104037": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "896126563706": {
+   "name": "Threat Stack",
+   "type": "",
+   "source": "https://threatstack.zendesk.com/hc/en-us/articles/206006626-AWS-EC2-Integration"
+  },
+  "897822967062": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "900612956339": {
+   "name": "EKS ECR Repositories",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/eks/latest/userguide/add-ons-images.html"
+  },
+  "900889452093": {
+   "name": "EKS ECR Repositories",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/eks/latest/userguide/add-ons-images.html"
+  },
+  "902366379725": {
+   "name": "Redshift logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html"
+  },
+  "902500896138": {
+   "name": "wpengine",
+   "type": "",
+   "source": "https://wpengine.com/support/configuring-largefs-store-transfer-unlimited-data/"
+  },
+  "902542641901": {
+   "name": "Temporal Technologies, Inc.",
+   "type": "",
+   "source": "https://temporal-auditlogs-config.s3.us-west-2.amazonaws.com/cloudformation/iam-role-for-temporal-audit-logs.yaml"
+  },
+  "902917483333": {
+   "name": "InfoBlox",
+   "type": "",
+   "source": "https://docs.infoblox.com/space/BloxOneDDI/512098335/AWS+-+General"
+  },
+  "903692715234": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "907379612154": {
+   "name": "Redshift logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html"
+  },
+  "910226215634": {
+   "name": "StrongDM",
+   "type": "",
+   "source": "https://www.strongdm.com/docs/admin/logs/log-stream/"
+  },
+  "913057016266": {
+   "name": "Scalyr",
+   "type": "",
+   "source": "https://app.scalyr.com/solutions/import-logs-from-s3"
+  },
+  "913128560467": {
+   "name": "env0",
+   "type": "",
+   "source": "https://docs.env0.com/docs/aws-costs"
+  },
+  "913179291432": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "915173422425": {
+   "name": "Redshift logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html"
+  },
+  "918309763551": {
+   "name": "EKS ECR Repositories",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/eks/latest/userguide/add-ons-images.html"
+  },
+  "919814621061": {
+   "name": "Scalr",
+   "type": "",
+   "source": "https://docs.scalr.io/docs/aws"
+  },
+  "922761411349": {
+   "name": "Spotinst",
+   "type": "",
+   "source": "https://docs.spot.io/connect-your-cloud-provider/first-account/aws-manually"
+  },
+  "926226587429": {
+   "name": "Sumo Logic",
+   "type": "",
+   "source": "https://help.sumologic.com/03Send-Data/Sources/02Sources-for-Hosted-Collectors/Amazon-Web-Services/Grant-Access-to-an-AWS-Product"
+  },
+  "926826061926": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "934957504740": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "936182149045": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "943538517075": {
+   "name": "Tableau",
+   "type": "",
+   "source": "https://help.salesforce.com/s/articleView?id=005232922&type=1"
+  },
+  "944830124550": {
+   "name": "Fugue",
+   "type": "",
+   "source": "https://docs.fugue.co/setup.html"
+  },
+  "945512339897": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "949680696695": {
+   "name": "IBM",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "949777495771": {
+   "name": "site24x7",
+   "type": "",
+   "source": ""
+  },
+  "951887872838": {
+   "name": "Auth0",
+   "type": "",
+   "source": "https://auth0.com/docs/integrations/aws/sso"
+  },
+  "955633302743": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "956491294349": {
+   "name": "GitLab",
+   "type": "",
+   "source": "https://docs.gitlab.com/ee/solutions/cloud/aws/gitlab_single_box_on_aws.html#official-gitlab-releases-as-amis"
+  },
+  "956882708938": {
+   "name": "Sumo Logic",
+   "type": "",
+   "source": "https://help.sumologic.com/03Send-Data/Sources/02Sources-for-Hosted-Collectors/Amazon-Web-Services/Grant-Access-to-an-AWS-Product"
+  },
+  "956993596390": {
+   "name": "Vanta",
+   "type": "",
+   "source": "https://help.vanta.com/hc/en-us/articles/8451925240980-Connecting-Vanta-AWS-Organization"
+  },
+  "957664736811": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "958145178466": {
+   "name": "Cloudera",
+   "type": "",
+   "source": "https://blog.cloudera.com/cloudera-altus-cloud-services-youre-in-control-part-2/"
+  },
+  "960118270566": {
+   "name": "Redshift logging",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html"
+  },
+  "961992271922": {
+   "name": "EKS ECR Repositories",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/eks/latest/userguide/add-ons-images.html"
+  },
+  "962727799805": {
+   "name": "Atlas DataLake",
+   "type": "",
+   "source": ""
+  },
+  "965013871422": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "966208727603": {
+   "name": "Atmosphere IOT",
+   "type": "",
+   "source": "https://docs.atmosphereiot.com/aws-integration-setup-guide/"
+  },
+  "967800896805": {
+   "name": "Archera",
+   "type": "",
+   "source": "https://help.archera.ai/en/articles/5611146-what-is-the-archera-aws-account-id"
+  },
+  "968246515281": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "968898580625": {
+   "name": "CloudCraft",
+   "type": "",
+   "source": ""
+  },
+  "969236854626": {
+   "name": "API Gateway",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html"
+  },
+  "973841112453": {
+   "name": "GuardDuty Announcements",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html"
+  },
+  "976280145156": {
+   "name": "Orca Security",
+   "type": "",
+   "source": "https://orcasecurity.force.com/s/article/Orca-Scanner-Accounts-for-AWS-Trusted-Entities?topic=Onboarding&subtopic=AWS&article=Orca-Scanner-Accounts-for-AWS-Trusted-Entities"
+  },
+  "977081816279": {
+   "name": "CloudTrail",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html"
+  },
+  "977238331021": {
+   "name": "GuardDuty service accounts",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html"
+  },
+  "978540733285": {
+   "name": "Aqua",
+   "type": "",
+   "source": "https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/"
+  },
+  "978576646331": {
+   "name": "Vectra",
+   "type": "",
+   "source": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html"
+  },
+  "983328018169": {
+   "name": "UiPath",
+   "type": "",
+   "source": "https://forum.uipath.com/t/how-to-configure-aws-s3-storage-bucket-log-export-configuration-for-orchestrator-service-in-automation-cloud/506448"
+  },
+  "983530947477": {
+   "name": "Qleet",
+   "type": "",
+   "source": "https://docs.qleet.io/guides/add-aws-account/"
+  },
+  "985666609251": {
+   "name": "ELB logs",
+   "type": "aws",
+   "source": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html"
+  },
+  "992382785633": {
+   "name": "Praetorian Chariot",
+   "type": "aws",
+   "source": "https://docs.praetorian.com/articles/37956239205531-amazon-web-services-manual-deployment"
+  }
+ }
+}

@@ -1,0 +1,49 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vendor-trust-audit"
+dynamic = ["version"]
+description = "Find and rank AWS IAM roles that third-party vendors can assume: dormant trust, root principals, ExternalId-only trust and roles that can read secrets (the Qubole cross-account breach pattern)."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+authors = [{ name = "Murat Bekgi" }]
+keywords = ["aws", "iam", "security", "cloud-security", "third-party-risk", "supply-chain", "sts", "external-id", "incident-response"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: Information Technology",
+  "Programming Language :: Python :: 3",
+  "Topic :: Security",
+]
+dependencies = []
+
+[project.optional-dependencies]
+live = ["boto3>=1.40"]
+dev = ["pytest>=8", "ruff>=0.6", "boto3>=1.40", "moto[iam]>=5.0"]
+
+[project.urls]
+Homepage = "https://github.com/garag0l/vendor-trust-audit"
+Issues = "https://github.com/garag0l/vendor-trust-audit/issues"
+Changelog = "https://github.com/garag0l/vendor-trust-audit/blob/main/CHANGELOG.md"
+
+[project.scripts]
+vendor-trust-audit = "vendor_trust_audit.cli:main"
+
+[tool.hatch.version]
+path = "src/vendor_trust_audit/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vendor_trust_audit"]
+
+[tool.ruff]
+line-length = 130
+target-version = "py311"
+extend-exclude = ["tests/fixtures"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501"]

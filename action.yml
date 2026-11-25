@@ -1,0 +1,86 @@
+name: "Vendor Trust Audit"
+description: "Find and rank AWS IAM roles that third-party vendors can assume (dormant trust, root principals, ExternalId-only trust, secret reach) from a get-account-authorization-details export or live read-only credentials."
+author: "Murat Bekgi"
+branding:
+  icon: "shield"
+  color: "orange"
+
+inputs:
+  gaad:
+    description: "Path(s) to `aws iam get-account-authorization-details` output, separated by spaces (offline audit)."
+    required: false
+    default: ""
+  live:
+    description: "Set to 'true' to read IAM with the runner's AWS credentials (read-only). Configure credentials with aws-actions/configure-aws-credentials first."
+    required: false
+    default: "false"
+  format:
+    description: "Output format: text, json or sarif."
+    required: false
+    default: "text"
+  output:
+    description: "Write the report to this file (e.g. results.sarif for github/codeql-action/upload-sarif)."
+    required: false
+    default: ""
+  fail-on:
+    description: "Exit non-zero when a finding at this severity or higher is present: critical, high, medium, low, or none."
+    required: false
+    default: "high"
+  version:
+    description: "Install this PyPI version of vendor-trust-audit instead of the bundled action checkout."
+    required: false
+    default: ""
+  args:
+    description: "Extra arguments appended to the vendor-trust-audit command (e.g. --internal-accounts, --org-id, --dormant-days)."
+    required: false
+    default: ""
+
+runs:
+  using: "composite"
+  steps:
+    - name: Set up Python
+      uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+      with:
+        python-version: "3.13"
+    - name: Install vendor-trust-audit
+      shell: bash
+      env:
+        ACTION_PATH: ${{ github.action_path }}
+        IN_VERSION: ${{ inputs.version }}
+        IN_LIVE: ${{ inputs.live }}
+      run: |
+        set -euo pipefail
+        extra=""
+        [ "$IN_LIVE" = "true" ] && extra="[live]"
+        if [ -n "$IN_VERSION" ]; then
+          python3 -m pip install --quiet "vendor-trust-audit${extra}==$IN_VERSION"
+        else
+          python3 -m pip install --quiet "${ACTION_PATH}${extra}"
+        fi
+    - name: Run the audit
+      shell: bash
+      env:
+        IN_GAAD: ${{ inputs.gaad }}
+        IN_LIVE: ${{ inputs.live }}
+        IN_FORMAT: ${{ inputs.format }}
+        IN_OUTPUT: ${{ inputs.output }}
+        IN_FAIL_ON: ${{ inputs.fail-on }}
+        IN_ARGS: ${{ inputs.args }}
+      run: |
+        set -euo pipefail
+        cmd=(vendor-trust-audit)
+        if [ -n "$IN_GAAD" ] && [ "$IN_LIVE" = "true" ]; then
+          echo "::error::Provide either gaad or live=true, not both." >&2; exit 2
+        fi
+        if [ -n "$IN_GAAD" ]; then
+          for g in $IN_GAAD; do cmd+=(--gaad "$g"); done
+        elif [ "$IN_LIVE" = "true" ]; then
+          cmd+=(--live)
+        else
+          echo "::error::Provide gaad or live=true." >&2; exit 2
+        fi
+        cmd+=(--format "$IN_FORMAT" --fail-on "$IN_FAIL_ON" --no-color)
+        [ -n "$IN_OUTPUT" ] && cmd+=(--output "$IN_OUTPUT")
+        # IN_ARGS is an intentional word-split escape hatch for extra flags.
+        # shellcheck disable=SC2086
+        "${cmd[@]}" $IN_ARGS

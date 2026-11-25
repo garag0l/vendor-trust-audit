@@ -1,0 +1,68 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: test (${{ matrix.os }}, py${{ matrix.python }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install -e ".[dev]"
+      - run: ruff check .
+      - run: ruff format --check .
+      - run: pytest -q
+      - name: Fixture is reproducible
+        run: python tests/build_fixture.py && git diff --exit-code tests/fixtures/account_gaad.json
+        shell: bash
+
+  action:
+    name: composite action (end-to-end)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Audit the fixture via the action (SARIF)
+        uses: ./
+        with:
+          gaad: tests/fixtures/account_gaad.json
+          format: sarif
+          output: vta.sarif
+          fail-on: none
+          args: --now 2026-11-25 --internal-accounts 222233334444 --org-id o-acme12345
+      - name: SARIF has the expected findings
+        run: |
+          python3 - <<'PY'
+          import json
+          d = json.load(open("vta.sarif"))
+          ids = {r["ruleId"] for r in d["runs"][0]["results"]}
+          assert {"VTA-002", "VTA-003", "VTA-004", "VTA-005", "VTA-006"} <= ids, ids
+          print(len(d["runs"][0]["results"]), "results")
+          PY
+      - name: fail-on gate trips on the Qubole-shaped fixture
+        id: gate
+        continue-on-error: true
+        uses: ./
+        with:
+          gaad: tests/fixtures/account_gaad.json
+          fail-on: critical
+      - name: Gate must have failed
+        if: steps.gate.outcome != 'failure'
+        run: exit 1
